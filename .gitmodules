@@ -78,3 +78,7 @@
 	path = libs/move
 	url = https://github.com/boostorg/move.git
 	shallow = true
+[submodule "mp11"]
+	path = libs/mp11
+	url = https://github.com/boostorg/mp11.git
+	shallow = true
