@@ -1,0 +1,4 @@
+[submodule "assert"]
+	path = libs/assert
+	url = https://github.com/boostorg/assert.git
+	shallow = true
