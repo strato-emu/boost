@@ -74,3 +74,7 @@
 	path = libs/iterator
 	url = https://github.com/boostorg/iterator.git
 	shallow = true
+[submodule "move"]
+	path = libs/move
+	url = https://github.com/boostorg/move.git
+	shallow = true
