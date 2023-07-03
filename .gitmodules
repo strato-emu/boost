@@ -106,3 +106,7 @@
 	path = libs/rational
 	url = https://github.com/boostorg/rational.git
 	shallow = true
+[submodule "regex"]
+	path = libs/regex
+	url = https://github.com/boostorg/regex.git
+	shallow = true
