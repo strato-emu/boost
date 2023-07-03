@@ -58,3 +58,7 @@
 	path = libs/icl
 	url = https://github.com/boostorg/icl.git
 	shallow = true
+[submodule "integer"]
+	path = libs/integer
+	url = https://github.com/boostorg/integer.git
+	shallow = true
