@@ -138,3 +138,7 @@
 	path = libs/typeof
 	url = https://github.com/boostorg/typeof.git
 	shallow = true
+[submodule "utility"]
+	path = libs/utility
+	url = https://github.com/boostorg/utility.git
+	shallow = true
