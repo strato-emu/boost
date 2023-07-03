@@ -146,3 +146,7 @@
 	path = libs/functional
 	url = https://github.com/boostorg/functional.git
 	shallow = true
+[submodule "variant"]
+	path = libs/variant
+	url = https://github.com/boostorg/variant.git
+	shallow = true
