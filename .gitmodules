@@ -26,3 +26,7 @@
 	path = libs/conversion
 	url = https://github.com/boostorg/conversion.git
 	shallow = true
+[submodule "core"]
+	path = libs/core
+	url = https://github.com/boostorg/core.git
+	shallow = true
