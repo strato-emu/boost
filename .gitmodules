@@ -126,3 +126,7 @@
 	path = libs/tuple
 	url = https://github.com/boostorg/tuple.git
 	shallow = true
+[submodule "type_index"]
+	path = libs/type_index
+	url = https://github.com/boostorg/type_index.git
+	shallow = true
