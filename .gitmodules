@@ -122,3 +122,7 @@
 	path = libs/throw_exception
 	url = https://github.com/boostorg/throw_exception.git
 	shallow = true
+[submodule "tuple"]
+	path = libs/tuple
+	url = https://github.com/boostorg/tuple.git
+	shallow = true
