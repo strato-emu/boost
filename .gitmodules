@@ -34,3 +34,7 @@
 	path = libs/date_time
 	url = https://github.com/boostorg/date_time.git
 	shallow = true
+[submodule "describe"]
+	path = libs/describe
+	url = https://github.com/boostorg/describe.git
+	shallow = true
