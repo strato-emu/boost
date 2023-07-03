@@ -2,3 +2,7 @@
 	path = libs/assert
 	url = https://github.com/boostorg/assert.git
 	shallow = true
+[submodule "bind"]
+	path = libs/bind
+	url = https://github.com/boostorg/bind.git
+	shallow = true
