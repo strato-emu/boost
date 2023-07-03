@@ -46,3 +46,7 @@
 	path = libs/function
 	url = https://github.com/boostorg/function.git
 	shallow = true
+[submodule "function_types"]
+	path = libs/function_types
+	url = https://github.com/boostorg/function_types.git
+	shallow = true
