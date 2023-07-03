@@ -134,3 +134,7 @@
 	path = libs/type_traits
 	url = https://github.com/boostorg/type_traits.git
 	shallow = true
+[submodule "typeof"]
+	path = libs/typeof
+	url = https://github.com/boostorg/typeof.git
+	shallow = true
