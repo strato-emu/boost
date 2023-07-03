@@ -86,3 +86,7 @@
 	path = libs/mpl
 	url = https://github.com/boostorg/mpl.git
 	shallow = true
+[submodule "optional"]
+	path = libs/optional
+	url = https://github.com/boostorg/optional.git
+	shallow = true
