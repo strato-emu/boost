@@ -82,3 +82,7 @@
 	path = libs/mp11
 	url = https://github.com/boostorg/mp11.git
 	shallow = true
+[submodule "mpl"]
+	path = libs/mpl
+	url = https://github.com/boostorg/mpl.git
+	shallow = true
