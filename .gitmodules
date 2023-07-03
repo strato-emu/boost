@@ -94,3 +94,7 @@
 	path = libs/predef
 	url = https://github.com/boostorg/predef.git
 	shallow = true
+[submodule "preprocessor"]
+	path = libs/preprocessor
+	url = https://github.com/boostorg/preprocessor.git
+	shallow = true
