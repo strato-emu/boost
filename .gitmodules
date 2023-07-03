@@ -90,3 +90,7 @@
 	path = libs/optional
 	url = https://github.com/boostorg/optional.git
 	shallow = true
+[submodule "predef"]
+	path = libs/predef
+	url = https://github.com/boostorg/predef.git
+	shallow = true
