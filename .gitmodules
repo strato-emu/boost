@@ -98,3 +98,7 @@
 	path = libs/preprocessor
 	url = https://github.com/boostorg/preprocessor.git
 	shallow = true
+[submodule "range"]
+	path = libs/range
+	url = https://github.com/boostorg/range.git
+	shallow = true
