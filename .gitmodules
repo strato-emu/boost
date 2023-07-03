@@ -118,3 +118,7 @@
 	path = libs/static_assert
 	url = https://github.com/boostorg/static_assert.git
 	shallow = true
+[submodule "throw_exception"]
+	path = libs/throw_exception
+	url = https://github.com/boostorg/throw_exception.git
+	shallow = true
