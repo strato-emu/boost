@@ -114,3 +114,7 @@
 	path = libs/smart_ptr
 	url = https://github.com/boostorg/smart_ptr.git
 	shallow = true
+[submodule "static_assert"]
+	path = libs/static_assert
+	url = https://github.com/boostorg/static_assert.git
+	shallow = true
