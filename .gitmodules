@@ -150,3 +150,7 @@
 	path = libs/variant
 	url = https://github.com/boostorg/variant.git
 	shallow = true
+[submodule "winapi"]
+	path = libs/winapi
+	url = https://github.com/boostorg/winapi.git
+	shallow = true
