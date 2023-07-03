@@ -18,3 +18,7 @@
 	path = libs/container
 	url = https://github.com/boostorg/container.git
 	shallow = true
+[submodule "container_hash"]
+	path = libs/container_hash
+	url = https://github.com/boostorg/container_hash.git
+	shallow = true
