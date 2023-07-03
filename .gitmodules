@@ -50,3 +50,7 @@
 	path = libs/function_types
 	url = https://github.com/boostorg/function_types.git
 	shallow = true
+[submodule "fusion"]
+	path = libs/fusion
+	url = https://github.com/boostorg/fusion.git
+	shallow = true
