@@ -142,3 +142,7 @@
 	path = libs/utility
 	url = https://github.com/boostorg/utility.git
 	shallow = true
+[submodule "functional"]
+	path = libs/functional
+	url = https://github.com/boostorg/functional.git
+	shallow = true
