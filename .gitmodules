@@ -102,3 +102,7 @@
 	path = libs/range
 	url = https://github.com/boostorg/range.git
 	shallow = true
+[submodule "rational"]
+	path = libs/rational
+	url = https://github.com/boostorg/rational.git
+	shallow = true
