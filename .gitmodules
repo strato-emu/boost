@@ -54,3 +54,7 @@
 	path = libs/fusion
 	url = https://github.com/boostorg/fusion.git
 	shallow = true
+[submodule "icl"]
+	path = libs/icl
+	url = https://github.com/boostorg/icl.git
+	shallow = true
