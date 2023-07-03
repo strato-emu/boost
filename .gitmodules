@@ -66,3 +66,7 @@
 	path = libs/intrusive
 	url = https://github.com/boostorg/intrusive.git
 	shallow = true
+[submodule "io"]
+	path = libs/io
+	url = https://github.com/boostorg/io.git
+	shallow = true
