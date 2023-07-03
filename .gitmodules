@@ -70,3 +70,7 @@
 	path = libs/io
 	url = https://github.com/boostorg/io.git
 	shallow = true
+[submodule "iterator"]
+	path = libs/iterator
+	url = https://github.com/boostorg/iterator.git
+	shallow = true
