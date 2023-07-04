@@ -43,7 +43,7 @@ declare -a modules=(
     "winapi"
 )
 
-print_help() {
+print_help () {
     echo "Usage: $0 [-s] PATH"
     echo "Options:"
     echo "  -s      Skip updating existing submodules, but only add new ones"
@@ -63,6 +63,7 @@ do
     esac
 done
 shift $(($OPTIND-1))
+
 path="$1"
 
 # cd into the specified path
@@ -76,9 +77,23 @@ then
     fi
 fi
 
+# Allow overriding the git command, e.g. to use git.exe on WSL
+GIT="git"
+git () {
+    command $GIT "$@"
+}
+
+# Use git.exe when running in WSL on Windows and the repo is on a Windows drive
+# Fixes performance issues with git
+if [[ $(grep microsoft /proc/version) && "$path" =~ ^/mnt/.* ]]
+then
+    echo "WSL path detected, using git.exe"
+    GIT="git.exe"
+fi
+
 # $1 - submodule name
 # $2 - submodule path
-add_submodule() {
+add_submodule () {
     echo "Adding submodule $1"
     git submodule add --name $1 --depth 1 https://github.com/boostorg/$1.git $2/$1
     git config -f .gitmodules submodule.$1.shallow true
@@ -88,7 +103,7 @@ add_submodule() {
 
 # $1 - submodule name
 # $2 - submodule path
-update_submodule() {
+update_submodule () {
     if [ $skip_update = true ]
     then
         echo "Skipping submodule $1 update"
@@ -106,7 +121,7 @@ update_submodule() {
 
 # $1 - submodule name
 # $2 - submodule path
-add_or_update_submodule() {
+add_or_update_submodule () {
     git submodule status $2/$1
     if [ $? -eq 0 ]
     then
