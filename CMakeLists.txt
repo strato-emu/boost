@@ -34,6 +34,7 @@ target_link_libraries(boost INTERFACE
     Boost::date_time
     Boost::describe
     Boost::detail
+    Boost::exception
     Boost::function
     Boost::function_types
     Boost::fusion
