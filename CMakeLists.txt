@@ -42,9 +42,11 @@ target_link_libraries(boost INTERFACE
     Boost::intrusive
     Boost::io
     Boost::iterator
+    Boost::lexical_cast
     Boost::move
     Boost::mp11
     Boost::mpl
+    Boost::numeric_conversion
     Boost::optional
     Boost::predef
     Boost::preprocessor
@@ -54,6 +56,7 @@ target_link_libraries(boost INTERFACE
     Boost::smart_ptr
     Boost::static_assert
     Boost::throw_exception
+    Boost::tokenizer
     Boost::tuple
     Boost::type_index
     Boost::type_traits
