@@ -174,3 +174,7 @@
 	path = libs/lexical_cast
 	url = https://github.com/boostorg/lexical_cast.git
 	shallow = true
+[submodule "numeric_conversion"]
+	path = libs/numeric_conversion
+	url = https://github.com/boostorg/numeric_conversion.git
+	shallow = true
