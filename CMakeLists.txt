@@ -21,6 +21,7 @@ include(BoostRoot)
 
 add_library(boost INTERFACE)
 target_link_libraries(boost INTERFACE
+    Boost::algorithm
     Boost::array
     Boost::assert
     Boost::bind
@@ -57,6 +58,7 @@ target_link_libraries(boost INTERFACE
     Boost::type_index
     Boost::type_traits
     Boost::typeof
+    Boost::unordered
     Boost::utility
     Boost::functional
     Boost::variant
