@@ -182,3 +182,7 @@
 	path = libs/tokenizer
 	url = https://github.com/boostorg/tokenizer.git
 	shallow = true
+[submodule "exception"]
+	path = libs/exception
+	url = https://github.com/boostorg/exception.git
+	shallow = true
