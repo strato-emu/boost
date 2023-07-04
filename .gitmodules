@@ -162,3 +162,7 @@
 	path = tools/cmake
 	url = https://github.com/boostorg/cmake.git
 	shallow = true
+[submodule "algorithm"]
+	path = libs/algorithm
+	url = https://github.com/boostorg/algorithm.git
+	shallow = true
