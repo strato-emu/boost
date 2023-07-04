@@ -166,3 +166,7 @@
 	path = libs/algorithm
 	url = https://github.com/boostorg/algorithm.git
 	shallow = true
+[submodule "unordered"]
+	path = libs/unordered
+	url = https://github.com/boostorg/unordered.git
+	shallow = true
