@@ -170,3 +170,7 @@
 	path = libs/unordered
 	url = https://github.com/boostorg/unordered.git
 	shallow = true
+[submodule "lexical_cast"]
+	path = libs/lexical_cast
+	url = https://github.com/boostorg/lexical_cast.git
+	shallow = true
